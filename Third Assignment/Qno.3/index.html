@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <script>
+      var fTemp = 98.6; // temperature in Celsius
+      var cTemp = (fTemp - 32) * (5 / 9);
+      var kTemp = (5 / 9) * (fTemp - 32) + 273;
+      document.write("Temperature in Fahrenheit: " + fTemp + " degrees<br/>");
+      document.write("Temperature in Celsius: " + cTemp + " degrees<br/>");
+      document.write("Temperature in Kelvin: " + kTemp + " degrees");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+/* Universal Selector */
+*{
+    text-align: center;
+}
+
+/* Element selector */
+p{
+    color: blueviolet;
+}
+
+/* ID selector */
+#para1{
+    color: brown;
+}
+
+/* Class selector */
+.center{
+    color: crimson;
+}
+
+/*Descendant Combinator */
+ul li{
+    color: darkkhaki;
+}

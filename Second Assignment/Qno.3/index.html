@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Qno.3</title>
+</head>
+<body>
+    <p hidden>This paragraph should be hidden.</p> 
+
+    <label for="fn"> Firstname: </label>   
+<!-- The following input field not display on the web page because the hidden attribute is used in this <input> tag. -->  
+    <input hidden type="text"  name="firstname" id= "fn" size="15" required />  
+
+    <h1 class="hid">This is hidden</h1>
+
+    <h2 class="h2">heading 2  shouuld be hidden </h2>
+
+    <img class = "img1" src="pic.png" alt="" height="200" width="200">
+
+    <ol class="hide" tabindex="0">
+        <li>one</li>
+        <li class="hide-item">two</li>
+        <li>three</li>
+    </ol>
+    <p>Hover or focus on any box to hide item two using <code>clip-path: circle(0);</code></p>
+
+    <h3>this heading is hidden by z-index property</h3>
+    <img class = "img2" src="pic.png" alt="" height="200" width="200">
+
+</body>
+</html>
